@@ -9,16 +9,16 @@
 
   /* ---------- Configuration ---------- */
   const PAGE_IMAGES = [
-    'public/pages/page1.png',
-    'public/pages/page2.png',
-    'public/pages/page3.png',
-    'public/pages/page4.png',
-    'public/pages/page5.png',
-    'public/pages/page6.png',
-    'public/pages/page7.png',
-    'public/pages/page8.png',
+    '/pages/page1.png',
+    '/pages/page2.png',
+    '/pages/page3.png',
+    '/pages/page4.png',
+    '/pages/page5.png',
+    '/pages/page6.png',
+    '/pages/page7.png',
+    '/pages/page8.png',
   ];
-  const CALENDAR_IMAGE = 'public/pages/calendar-final.png';
+  const CALENDAR_IMAGE = '/pages/calendar-final.png';
   const FOLD_IMAGES = PAGE_IMAGES.slice(1, 5);
   const TOTAL_PAGES = PAGE_IMAGES.length;
 
